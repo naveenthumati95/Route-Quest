@@ -11,7 +11,7 @@ The city is modeled as an **undirected weighted graph**, where:
 * The vehicle has a fuel tank of limited capacity **F** and starts with a **full tank**
 * **Fuel stations** are special nodes where the vehicle can refuel back to full capacity
 
-Each delivery consists of a pair ((hub_i, house_i)), where a package must be picked up from `hub_i` and delivered to `house_i`. A route is considered valid if it satisfies all of the following conditions:
+Each delivery consists of a pair `(hub_i, house_i)`, where a package must be picked up from `hub_i` and delivered to `house_i`. A route is considered valid if it satisfies all of the following conditions:
 
 * **House Coverage**: Every destination house is visited at least once
 * **Delivery Precedence**: For each pair ((hub_i, house_i)), the **last visit** to `house_i` occurs **after at least one visit** to `hub_i`
